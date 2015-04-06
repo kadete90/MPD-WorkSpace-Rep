@@ -22,9 +22,40 @@ import java.util.Date;
  *
  * @author Miguel Gamboa at CCISEL
  */
+
 public class GithubUser {
+    
     String login;
     int id;
     String email;
     String location;
+    Date created_at;
+
+    public String getLogin() {
+        return login;
+    }
+    public int getId() {
+        return id;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public Date getCreated_at() {
+        return created_at;
+    }
+    public String getLocation() {
+        return location;
+    }
+     
+    public GithubUser(String login, int id, String email, String location, Date created_at) {
+        this.login = login;
+        this.id = id;
+        this.email = email;
+        this.location = location;
+        this.created_at = created_at;
+    }
+
+    public GithubUser() {
+    }
+    
 }

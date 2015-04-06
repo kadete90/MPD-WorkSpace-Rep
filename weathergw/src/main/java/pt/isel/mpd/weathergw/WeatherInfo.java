@@ -47,7 +47,6 @@ public class WeatherInfo {
     public String toString() {
         return "LocalInfo{" + "date=" + date + ", tempC=" + tempC + ", weatherDesc=" + weatherDesc + ", precipMM=" + precipMM + ", feelsLikeC=" + feelsLikeC + '}';
     }
-
     
     /**
      * Hourly information follows below the day according to the format of 

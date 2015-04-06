@@ -20,10 +20,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import static java.lang.ClassLoader.getSystemResourceAsStream;
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * @author Miguel Gamboa at CCISEL

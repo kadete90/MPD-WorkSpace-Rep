@@ -17,9 +17,6 @@
 package pt.isel.mpd.util;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.function.Function;
-import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -41,7 +38,6 @@ public class HttpGw {
             * HttpResponse
             */
             try(CloseableHttpResponse response = httpclient.execute(httpget)){
-               
                 return formatter.format(response.getEntity());
             } 
         }
