@@ -23,5 +23,5 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <name>aula11-http-gw</name>
+    <name>mpd-ficha1</name>
 </project>
