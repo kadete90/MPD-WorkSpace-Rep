@@ -2,11 +2,6 @@
 
 ### Java ###
 *.class
-weathergw/target
-weathergw/target/*
-target/*
-target/
-target
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
